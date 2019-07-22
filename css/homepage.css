@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.inconsolata-font-family {
+    font-family: Inconsolata;
+}
+
+.montserrat-font-family {
+    font-family: Montserrat;
+}
+
+.container {
+    margin: auto;
+    overflow: hidden;
+    width: 90%;
+}
+
+#logo {
+    height: 10%;
+    width: 5%;
+}
+
+#faq {
+    float: right;
+    padding: 10px 10px;
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+#main-heading {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.plan-container {
+    display: flex;
+}
+
+.card {
+    width: 200px;
+    border: 4px solid #888080;
+    text-align: center;
+}
+
+.card1 {
+    margin: 0 91px;
+}
+
+.card2 {
+    margin: 0 20px;
+}
+
+.card h4 {
+    margin-top: 8px;
+}
+
+#saving {
+    margin-top: -12px;
+    font-size: 12px;
+}
+
+@media(max-width:768px) {
+    .plan-container {
+        display: block;
+        text-align: center;
+    }
+}
+
+.card h2 {
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: -13px;
+}
+
+.underline {
+    position: relative;
+}
+
+.underline::before {
+    content: '';
+    position: absolute;
+    background: #ECECEC;
+    height: 1.5px;
+    width: 150px;
+    bottom: -10px;
+    right: 25px;
+}
+
+#description {
+    text-align: justify;
+    font-size: 12px;
+}
+
+.card h3 {
+    font-size: 17px;
+}
+
+.card h5 {
+    font-size: 17px;
+}
+
+#tax {
+    font-size: 10px;
+}
+
+#regular-price {
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-style: italic;
+    margin-top: -10px;
+    margin-bottom: 8px;
+}
+
+#additional-offer li {
+    margin-right: 50px;
+    list-style-type: none;
+}
+
+#additional-offer {
+    font-size: 14px;
+}
+
+.extra-feature {
+    font-size: 13px;
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+
+.btn {
+    position: absolute;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 10px;
+}
+
+.btn-plan-1 {
+    background: #535989;
+}
+
+.btn-plan-2 {
+    background: #71775C;
+}
+
+.btn-plan-3 {
+    background: #CB5625;
+}
+
+.btn-plan-4 {
+    background: #EEA12F;
+}
